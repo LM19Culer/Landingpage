@@ -9,7 +9,7 @@
                 display:flex;
                 justify-content: space-around;
                 align-items: center;
-                background: rgb(150, 140, 140);
+                background: rgb(12, 52, 165);
                 height: 50px;
                 flex-direction: row;
                 margin: 0px;
@@ -25,36 +25,115 @@
             }
             .logo{
                 display:flex;
+                height: 70px;
+                width: auto;
 
             }
+          
             a{
               text-decoration: none;
-              color:rgb(21, 21, 197);
+              color:rgb(221, 54, 54);
               font-weight: bold;
             }
             a:hover{
               
-              color:rgb(129, 13, 13);
+              color:rgb(243, 0, 0);
             }
             .links, .rechts{
                 display:flex;
 
+            }
+            .bild-container{
+              display:flex;
+              width: 100%;
+              height: 500px;
+              
+             
+            }
+            .hauptbild{
+             display:flex;
+             width: 100%;
+             height: 100%;
+             
+                          
+            }
+            .under_pic{
+              display:flex;
+              background: rgb(221, 54, 54);
+              height: 30px;
+              width: auto;
+            }
+            .third_container{
+              display: flex;
+              flex-direction: column;
+              background: rgba(136, 73, 73, 0.568);
+              padding:30px;
+              align-items: center;
+              
+              
+            }
+             h2{
+              display:flex;
+              text-align: center;
+              color: rgb(211, 180, 3);
+              font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-size: 48px;
+            }
+            .pic_box{
+              display:flex;
+              justify-content: center;
+              gap: 50px;
+              margin-top: 20px;
+            }
+            .box{
+              width: 350px;
+              text-align: center;
+            }
+            .box img{
+              width: 100%;
+              height:auto;
+              border-radius: 16px;
+            }
+            p{
+              color:rgb(3, 37, 46);
+              font-size: 24px;
             }
     </style>
 </head>
 <body>
  <div class="grauer-container">
    <div class="links">
-    <div class="logo">LOGO</div>
+    <div class="logo"><img src="images/Barcalogo.jpg" alt="Barcelona-Logo"></div>
+    
    </div> 
    <div class="rechts">
     <ul class="drei_links">
         <li class="link1"><a href="#">SHOP<br></a></li>
         <li class="link2"><a href="#">TICKETS</a></li>
-        <li class="link3"><a href="#">SPIELPLAN</a></li> 
+        <li class="link3"><a href="#">GAMEPLAN</a></li> 
     </ul>
    </div>
   </div>
+  <div class="bild-container">
+    <img class="hauptbild" src="images/Camp-Nou.jpg"></div>
+  </div>
+  <div class="under_pic"></div>
+  </div>
+  <div class="third_container">
+    <h2>More than a Club. Thats what we are.</h2>
+    <div class="pic_box">
+     <div class="box">
+      <img src="images/lamasia.jpg" alt="Barca-Academy LaMasia">
+      <p>Our beloved Academy, LaMasia.<br>A Magical Place, where Legends are Born.</p>
+     </div>
+     <div class="box">
+      <img src="images/barcastore.jpg" alt="The Barcelona Shop in LaRambla">
+      <p>Trikots, Fangear, everything you need to be a true Culer.<br>The Barcelona Fan-Store located on the well-known Street "LaRambla".</p>
+     </div>
+     <div class="box">
+      <img src="images/Newcamp.jpg" alt="The New Spotify CampNou">
+      <p>Future Playground of FC Barcelona. Currently in the Building,<br>waiting to be used by the Blaugrana.</p>
+     </div>
 </body>
 </html>
-<> hi
+<>
